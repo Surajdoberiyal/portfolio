@@ -34,10 +34,10 @@ const SkillsContainer = styled.ul`
 const Skill = styled.li`
   position: relative;
   margin-bottom: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
-  color: ${colors.green};
+  color: ${colors.lightestSlate};
   &:before {
     content: '▹';
     position: absolute;

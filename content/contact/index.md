@@ -1,6 +1,6 @@
 ---
-title: 'Get In Touch'
-buttonText: 'Mail Me'
+title: 'Connect With me as a true Web Developer'
+buttonText: 'Contact Me'
 ---
 
-My inbox is always open. Whether you have a question or just want to say hello, I'll try my best to get back to you! Feel free to mail me about any relevant job updates.
+I am currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you !

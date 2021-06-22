@@ -27,7 +27,7 @@ const StyledSocialList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
-`;
+  `;
 const StyledSocialLink = styled.a`
   padding: 10px;
   svg {
@@ -39,14 +39,13 @@ const StyledMetadata = styled.div`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.xs};
   line-height: 1;
-`;
+      `;
 const StyledGitHubLink = styled.a`
   color: ${colors.lightSlate};
   padding: 10px;
-`;
+  `;
 const StyledGitHubInfo = styled.div`
   margin-top: 10px;
-
   & > span {
     display: inline-flex;
     align-items: center;
@@ -58,6 +57,7 @@ const StyledGitHubInfo = styled.div`
     width: auto;
     margin-right: 5px;
   }
+ 
 `;
 
 const Footer = () => {
@@ -106,11 +106,9 @@ const Footer = () => {
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>
-            Designed &amp; Built by Brittany Chiang<br></br>
-            Revised by Chandrika Deb
-          </div>
-
-          {githubInfo.stars && githubInfo.forks && (
+            Designed &amp; Built By Brittany Chiang |
+           </div>
+           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>
                 <FormattedIcon name="Star" />
@@ -124,7 +122,31 @@ const Footer = () => {
           )}
         </StyledGitHubLink>
       </StyledMetadata>
-    </StyledContainer>
+
+      <StyledMetadata tabindex="1">
+        <StyledGitHubLink
+          href="https://github.com/Surajdoberiyal"
+          target="_blank"
+          rel="nofollow noopener noreferrer">
+          <div>
+            | Customized By Suraj Doberiyal
+           </div>
+           {githubInfo.stars && githubInfo.forks && (
+            <StyledGitHubInfo>
+              <span>
+                <FormattedIcon name="Star" />
+                <span>{githubInfo.stars.toLocaleString()}</span>
+              </span>
+              <span>
+                <FormattedIcon name="Fork" />
+                <span>{githubInfo.forks.toLocaleString()}</span>
+              </span>
+            </StyledGitHubInfo>
+          )}
+        </StyledGitHubLink>
+      </StyledMetadata>
+      </StyledContainer>
+        
   );
 };
 

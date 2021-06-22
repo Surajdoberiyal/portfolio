@@ -1,21 +1,22 @@
 ---
 title: 'About Me'
-avatar: 'me.jpg'
+avatar: 'me1.jpg'
 skills:
-  - Tech Blogging
-  - Pencil Sketch
-  - Kathak Dance
-  - Public Speaking
-  - Team Management
-  - Mentoring
+  - HTML,CSS
+  - Javascript
+  - Bootstrap
+  - Tailwind CSS
+  - Wordpress
+  - ReactJS
+  
 ---
 
-Hello! I'm Chandrika Deb, from Jamshedpur, also known as Pittsburgh of India.
+Hello! I'm Suraj, a Web Developer based in Delhi, India.
 
-A Software Engineering Associate in the Digital Delivery team at [Amdocs](https://www.amdocs.com/), India.
+I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
 
-I have completed my Bachelors from [BIT Mesra](https://www.bitmesra.ac.in/) in Computer Science and Engineering (2016-2020) with [86.3% aggregate](https://drive.google.com/file/d/1G4UBPBP0mvWZLRdkF_EcpmKKGp7_OA8U/view?usp=sharing). 
+Currently I'm pursuing B.Voc (Software Development) at [IP University](http://www.ipu.ac.in/).I consider myself a self taught developer who has a hunger to work on fun and interesting projects.
 
-I have also been awarded as Runners-Up in [Project ICE(Innovative and Creative Environment) Fair](https://drive.google.com/file/d/1laynNsd9hIqxL-imT8dkAWqq7ZO4hj1a/view?usp=sharing) by Amdocs.
+Here are a few technologies I've been working with recently:
 
-Here are a few of the other activities that I love to do!
+ 
