@@ -16,11 +16,11 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/Surajdoberiyal/portfolio.git"
   },
   "husky": {
     "hooks": {
