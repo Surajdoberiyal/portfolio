@@ -1,12 +1,12 @@
 {
   "name": "portfolio",
-  "homepage": "https://surajdoberiyal.github.io/portfolio",  
+  "homepage": "https://Surajdoberiyal.github.io/portfolio",  
   "description": "Personal portfolio",
   "version": "1.0.0",
   "author": "Suraj Doberiyal <surajdoberiyal@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://surajdoberiyal.github.io/portfolio"
+    "url": "https://surajdoberiyal.github.io/portfolio/"
   },
   "keywords": [
     "gatsby"
