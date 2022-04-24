@@ -2,7 +2,7 @@
 date: '3'
 title: 'Quickse'
 cover: 'quickse.png'
-external: 'https:/quickse.in/'
+external: 'https://www.quickse.in/'
 tech:
   - HTML
   - CSS
