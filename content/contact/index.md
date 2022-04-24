@@ -1,5 +1,5 @@
 ---
-title: 'Connect With me as a true Web Developer'
+title: 'Connect With me as a true Frontend Developer or  Web Developer'
 buttonText: 'Contact Me'
 ---
 

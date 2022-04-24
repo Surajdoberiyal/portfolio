@@ -11,7 +11,7 @@ skills:
   
 ---
 
-Hello! I'm Suraj, a Web Developer based in Delhi, India.
+Hello! I'm Suraj kumar, a Frontend Developer based in Delhi, India.
 
 I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
 

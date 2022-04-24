@@ -1,6 +1,6 @@
 ---
 date: '2021-06-1'
-title: 'Front-end College-website'
+title: 'Frontend College Website'
 github: ''
 external: ''
 tech:
