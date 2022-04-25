@@ -3,7 +3,7 @@ date: '2'
 title: 'Frontend College Website'
 cover: 'College.png'
 github: 'https://github.com/Surajdoberiyal/College-website'
-external: ''
+external: 'https://iitdwarkacollege.netlify.app/'
 tech:
   - HTML
   - CSS

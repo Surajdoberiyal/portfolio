@@ -2,7 +2,7 @@
 date: '2021-06-06'
 title: 'React college website'
 github: 'https://github.com/tsg-asya/uni-website'
-external: 'https://nervous-panini-e818ef.netlify.app/'
+external: 'https://iitdwarkaproject.netlify.app/'
 tech:
   - React
   - HTML

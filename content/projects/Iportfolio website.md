@@ -2,7 +2,7 @@
 date: '2021-06-01'
 title: 'Iportfolio Website '
 github: 'https://github.com/Surajdoberiyal/iportfolio'
-external: 'https://surajdoberiyal.github.io/iportfolio/'
+external: 'https://surajdobriyal.netlify.app/'
 tech:
   - HTML&CSS
   - Javascript

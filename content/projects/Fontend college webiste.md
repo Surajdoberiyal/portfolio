@@ -1,8 +1,8 @@
 ---
 date: '2021-06-1'
 title: 'Frontend College Website'
-github: ''
-external: ''
+github: 'https://github.com/Surajdoberiyal/College-website'
+external: 'https://iitdwarkacollege.netlify.app/'
 tech:
   - HTML&CSS
   - Javascript
@@ -10,4 +10,5 @@ tech:
 showInProjects: true
 ---
 
-This front-end complete college website with HTML,CSS,Bootstrap,Javascipt abd This Front-end webiste attractive and looking profesional.
+This Frontend complete college website with HTML,CSS,Bootstrap,Javascipt, This Front-end webiste attractive and looking profesional.
+This website is making for my college projects.
