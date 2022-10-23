@@ -11,6 +11,7 @@ import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts, loaderDelay } = theme;
 
+// styled css start
 const StyledContainer = styled.header`
   ${mixins.flexBetween};
   position: fixed;
@@ -61,6 +62,7 @@ const StyledLogo = styled.div`
     }
   }
 `;
+// mobile nav view
 const StyledHamburger = styled.div`
   ${mixins.flexCenter};
   overflow: visible;
