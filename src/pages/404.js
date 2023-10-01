@@ -33,6 +33,7 @@ const StyledHomeButton = styled(Link)`
 const NotFoundPage = ({ location }) => {
   const [isMounted, setIsMounted] = useState(false);
 
+  // mounting app 
   useEffect(() => {
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
