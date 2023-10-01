@@ -60,6 +60,7 @@ const StyledGitHubInfo = styled.div`
  
 `;
 
+// Footer
 const Footer = () => {
   const [githubInfo, setGitHubInfo] = useState({
     stars: null,
