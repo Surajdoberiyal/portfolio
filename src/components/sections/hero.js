@@ -39,7 +39,7 @@ const StyledSubtitle = styled.h3`
   margin-bottom:0px;
   max-width: 750px;
   line-height: 1.1;
-  margin-top: 20px;
+  margin-top: 10px;
   color: ${colors.slate};
   ${media.desktop`font-size: 50px;`};
   ${media.tablet`font-size: 40px;`};
