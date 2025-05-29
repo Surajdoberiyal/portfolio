@@ -37,7 +37,9 @@ const StyledTitle = styled.h4`
   font-size: 60px;
   line-height:70px;
   ${media.desktop`font-size: 50px;`};
+  ${media.desktop`line-height: 60px;`};
   ${media.tablet`font-size: 40px;`};
+    ${media.tablet`line-height: 50px;`};
 `;
 const StyledEmailLink = styled.a`
   ${mixins.bigButton};
