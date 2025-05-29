@@ -1,6 +1,6 @@
 ---
-title: 'Connect With me as a true Frontend Developer or  Web Developer'
-buttonText: 'Contact Me'
+title: 'Connect With Me as a MERN Stack Developer Specializing in Full-Stack Web Applications'
+buttonText: 'Get in Touch'
 ---
 
-I am currently looking for new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I will try my best to get back to you !
+I’m actively seeking new opportunities where I can contribute to building and scaling modern web applications using the MERN stack. Whether you have a project in mind, a question, or just want to connect—feel free to reach out. I’ll do my best to respond promptly!

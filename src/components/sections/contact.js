@@ -8,7 +8,7 @@ const { colors, fontSizes, fonts } = theme;
 
 const StyledContainer = styled(Section)`
   text-align: center;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto 100px;
   a {
     ${mixins.inlineLink};
@@ -35,6 +35,7 @@ const StyledHeading = styled(Heading)`
 const StyledTitle = styled.h4`
   margin: 0 0 20px;
   font-size: 60px;
+  line-height:70px;
   ${media.desktop`font-size: 50px;`};
   ${media.tablet`font-size: 40px;`};
 `;
@@ -57,7 +58,7 @@ const Contact = ({ data }) => {
 
       <div dangerouslySetInnerHTML={{ __html: html }} />
 
-      <StyledEmailLink href={`https://www.instagram.com/mr_weirdo.alx`} target="_blank" rel="nofollow noopener noreferrer">
+      <StyledEmailLink href={`mailto:surajdoberiyal@gmail.com`} target="_blank" rel="nofollow noopener noreferrer">
         {buttonText}
       </StyledEmailLink>
     </StyledContainer>

@@ -1,5 +1,4 @@
 ---
-date: '2021-06-01'
 title: 'Iportfolio Website '
 github: 'https://github.com/Surajdoberiyal/iportfolio'
 external: 'https://surajdobriyal.netlify.app/'
@@ -11,4 +10,4 @@ company: ''
 showInProjects: true
 ---
 
- This frontend website contain four section including resume for more details of this website read this file readme.txt on my github account.
+Beginness Friendly Portfolio is a clean frontend website featuring four sections, including a resume. For more details, please check the readme.txt file on my GitHub account.

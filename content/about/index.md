@@ -1,22 +1,35 @@
 ---
 title: 'About Me'
-avatar: 'me1.jpg'
+avatar: 'me.jpg'
 skills:
   - HTML,CSS
-  - Javascript
+  - Javascript (ES6+)
   - Bootstrap
   - Tailwind CSS
-  - Wordpress
+  - Ant Design
+  - Reactstrap
   - ReactJS
+  - NextJS
+  - NodeJS
+  - ExpressJS
+  - Fastify
+  - NextJS
+  - MongoDB
+  - SQL
+  - Prisma
+  - Swagger Documentation
+
+
   
 ---
 
-Hello! I'm Suraj kumar, a Frontend Developer based in Delhi, India.
+Suraj Kumar<br/>
+Delhi-based MERN Stack Developer | 4+ Years of Experience
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+I'm Suraj Kumar, a passionate and results-driven MERN Stack Developer based in Delhi with over 4 years of hands-on experience in building scalable web applications and RESTful APIs. I specialize in full-stack development using Node.js, React.js, MongoDB, and Express, and have also worked extensively with modern tools and frameworks like Next.js, NestJS, Prisma, and SQL databases.
 
-Currently I'm pursuing B.Voc (Software Development) at [IP University](http://www.ipu.ac.in/).I consider myself a self taught developer who has a hunger to work on fun and interesting projects.
+I hold a Bachelor of Vocation (B.Voc) in Software Development from IP University, where I gained a strong foundation in computer science and software engineering principles.
 
-Here are a few technologies I've been working with recently:
+Throughout my career, I’ve contributed to various projects across different domains, consistently delivering clean, efficient, and maintainable code. My core strength lies in understanding complex business requirements and transforming them into high-performing digital solutions.
 
- 
+I’m always open to new challenges, collaborative projects, and opportunities that push my technical boundaries.

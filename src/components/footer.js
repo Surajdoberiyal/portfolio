@@ -108,10 +108,10 @@ const Footer = () => {
           rel="nofollow noopener noreferrer">
           <div>
             Designed &amp; Built By Brittany Chiang |
-           </div>
-           {githubInfo.stars && githubInfo.forks && (
+          </div>
+          {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
-             
+
             </StyledGitHubInfo>
           )}
         </StyledGitHubLink>
@@ -123,17 +123,17 @@ const Footer = () => {
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>
-            | Customized By Suraj Doberiyal
-           </div>
-           {githubInfo.stars && githubInfo.forks && (
+            | Customized By Suraj Kumar
+          </div>
+          {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
-             
+
             </StyledGitHubInfo>
           )}
         </StyledGitHubLink>
       </StyledMetadata>
-      </StyledContainer>
-        
+    </StyledContainer>
+
   );
 };
 

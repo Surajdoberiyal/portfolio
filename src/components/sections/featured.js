@@ -220,66 +220,68 @@ const Featured = ({ data }) => {
 
       <div>
         {featuredProjects &&
-          featuredProjects.map(({ node }, i) => {
-            const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+          featuredProjects
+            .sort((a, b) => a.node.frontmatter.index - b.node.frontmatter.index)
+            .map(({ node }, i) => {
+              const { frontmatter, html } = node;
+              const { external, title, tech, github, cover } = frontmatter;
 
-            return (
-              <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
-                <StyledContent>
-                  <StyledLabel>Featured Project</StyledLabel>
-                  <StyledProjectName>
-                    {external ? (
-                      <a
-                        href={external}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="External Link">
-                        {title}
-                      </a>
-                    ) : (
-                      title
+              return (
+                <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
+                  <StyledContent>
+                    <StyledLabel>Featured Project</StyledLabel>
+                    <StyledProjectName>
+                      {external ? (
+                        <a
+                          href={external}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          aria-label="External Link">
+                          {title}
+                        </a>
+                      ) : (
+                        title
+                      )}
+                    </StyledProjectName>
+                    <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
+                    {tech && (
+                      <StyledTechList>
+                        {tech.map((tech, i) => (
+                          <li key={i}>{tech}</li>
+                        ))}
+                      </StyledTechList>
                     )}
-                  </StyledProjectName>
-                  <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
-                  {tech && (
-                    <StyledTechList>
-                      {tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </StyledTechList>
-                  )}
-                  <StyledLinkWrapper>
-                    {github && (
-                      <a
-                        href={github}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="GitHub Link">
-                        <FormattedIcon name="GitHub" />
-                      </a>
-                    )}
-                    {external && (
-                      <a
-                        href={external}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="External Link">
-                        <FormattedIcon name="External" />
-                      </a>
-                    )}
-                  </StyledLinkWrapper>
-                </StyledContent>
+                    <StyledLinkWrapper>
+                      {github && (
+                        <a
+                          href={github}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          aria-label="GitHub Link">
+                          <FormattedIcon name="GitHub" />
+                        </a>
+                      )}
+                      {external && (
+                        <a
+                          href={external}
+                          target="_blank"
+                          rel="nofollow noopener noreferrer"
+                          aria-label="External Link">
+                          <FormattedIcon name="External" />
+                        </a>
+                      )}
+                    </StyledLinkWrapper>
+                  </StyledContent>
 
-                <StyledImgContainer
-                  href={external ? external : github ? github : '#'}
-                  target="_blank"
-                  rel="nofollow noopener noreferrer">
-                  <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
-                </StyledImgContainer>
-              </StyledProject>
-            );
-          })}
+                  <StyledImgContainer
+                    href={external ? external : github ? github : '#'}
+                    target="_blank"
+                    rel="nofollow noopener noreferrer">
+                    <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
+                  </StyledImgContainer>
+                </StyledProject>
+              );
+            })}
       </div>
     </StyledContainer>
   );

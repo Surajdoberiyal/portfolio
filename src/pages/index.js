@@ -69,6 +69,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            index
             title
             company
             location
@@ -86,6 +87,7 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
+            index
             title
             cover {
               childImageSharp {

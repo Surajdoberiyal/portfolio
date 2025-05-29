@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'Suraj Kumar | Web Developer',
+  siteTitle: 'Suraj Kumar | Mern Stack Developer',
   siteDescription:
-    'Suraj kumar is an incoming Web Developer, based in India, who loves learning new things and helping tech beginners.',
+    "Suraj Kumar is an aspiring MERN stack developer based in India, passionate about learning new technologies and helping beginners in tech.",
   siteKeywords:
     'Suraj Doberiyal, Suraj, doberiyal, surajdoberiyal, software engineer, web developer, javascript, script, delhi, new delhi, bit, vikas nagar, uttam nagar',
-  siteUrl: 'https://chandrikadeb7.github.io/',
+  siteUrl: 'https://iamsuraj.netlify.app',
   siteLanguage: 'en_US',
-  googleAnalyticsID: 'UA-45666519-2',
-  googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleAnalyticsID: '-',
+  googleVerification: '-',
   name: 'Suraj kumar',
   location: 'Uttam Nagar, India',
   email: 'Surajdoberiyal@gmail.com',
@@ -24,7 +24,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/mr_weirdo.alx/',
+      url: 'https://www.instagram.com/suraj__dobriyal',
     },
     {
       name: 'Twitter',

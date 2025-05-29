@@ -1,5 +1,4 @@
 ---
-date: '2021-09-1'
 title: 'Dialmantra Website'
 github: ''
 external: 'https://www.dialmantra.in/'
@@ -10,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Dialmantra website is helping for small business to start mini call center.
+Dialmantra is a platform that helps small businesses set up their own mini call centers with ease. It empowers teams to manage customer communication efficiently and professionally.

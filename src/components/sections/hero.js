@@ -35,18 +35,21 @@ const StyledTitle = styled.h2`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 50px;
+  margin-bottom:0px;
+  max-width: 750px;
   line-height: 1.1;
+  margin-top: 20px;
   color: ${colors.slate};
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
-  ${media.phone`font-size: 40px;`};
+  ${media.desktop`font-size: 50px;`};
+  ${media.tablet`font-size: 40px;`};
+  ${media.phablet`font-size: 35px;`};
+  ${media.phone`font-size: 30px;`};
 `;
 const StyledDescription = styled.div`
   margin-top: 25px;
   width: 50%;
-  max-width: 500px;
+  max-width: 750px;
   a {
     ${mixins.inlineLink};
   }

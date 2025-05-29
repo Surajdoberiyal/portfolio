@@ -193,30 +193,34 @@ const Jobs = ({ data }) => {
     }
   };
 
+
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
       <Heading>Where I&apos;ve Worked</Heading>
       <StyledTabs>
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
           {data &&
-            data.map(({ node }, i) => {
-              const { company } = node.frontmatter;
-              return (
-                <li key={i}>
-                  <StyledTabButton
-                    isActive={activeTabId === i}
-                    onClick={() => setActiveTabId(i)}
-                    ref={el => (tabs.current[i] = el)}
-                    id={`tab-${i}`}
-                    role="tab"
-                    aria-selected={activeTabId === i ? true : false}
-                    aria-controls={`panel-${i}`}
-                    tabIndex={activeTabId === i ? '0' : '-1'}>
-                    <span>{company}</span>
-                  </StyledTabButton>
-                </li>
-              );
-            })}
+            data
+              .sort((a, b) => a.node.frontmatter.index - b.node.frontmatter.index)
+              .map(({ node }, i) => {
+                const { company, } = node.frontmatter;
+
+                return (
+                  <li key={i}>
+                    <StyledTabButton
+                      isActive={activeTabId === i}
+                      onClick={() => setActiveTabId(i)}
+                      ref={el => (tabs.current[i] = el)}
+                      id={`tab-${i}`}
+                      role="tab"
+                      aria-selected={activeTabId === i ? true : false}
+                      aria-controls={`panel-${i}`}
+                      tabIndex={activeTabId === i ? '0' : '-1'}>
+                      <span>{company}</span>
+                    </StyledTabButton>
+                  </li>
+                );
+              })}
           <StyledHighlight activeTabId={activeTabId} />
         </StyledTabList>
 
